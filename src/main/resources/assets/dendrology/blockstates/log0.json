@@ -1,0 +1,22 @@
+
+{
+    "variants": {
+        "axis=y,variant=acemus": { "model": "dendrology:log_acemus" },
+        "axis=y,variant=cedrum": { "model": "dendrology:log_cedrum" },
+        "axis=y,variant=cerasu": { "model": "dendrology:log_cerasu" },
+        "axis=y,variant=delnas": { "model": "dendrology:log_delnas" },
+        "axis=x,variant=acemus": { "model": "dendrology:log_acemus_side", "y":90},
+        "axis=x,variant=cedrum": { "model": "dendrology:log_cedrum_side", "y":90},
+        "axis=x,variant=cerasu": { "model": "dendrology:log_cerasu_side", "y":90},
+        "axis=x,variant=delnas": { "model": "dendrology:log_delnas_side", "y":90},
+        "axis=z,variant=acemus": { "model": "dendrology:log_acemus_side"},
+        "axis=z,variant=cedrum": { "model": "dendrology:log_cedrum_side"},
+        "axis=z,variant=cerasu": { "model": "dendrology:log_cerasu_side"},
+        "axis=z,variant=delnas": { "model": "dendrology:log_delnas_side"},
+        "axis=none,variant=acemus": { "model": "dendrology:log_acemus_bark" },
+        "axis=none,variant=cedrum": { "model": "dendrology:log_cedrum_bark" },
+        "axis=none,variant=cerasu": { "model": "dendrology:log_cerasu_bark" },
+        "axis=none,variant=delnas": { "model": "dendrology:log_delnas_bark" }
+
+    }
+}

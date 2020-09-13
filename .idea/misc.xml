@@ -15,7 +15,13 @@
       <entry_point TYPE="class" FQNAME="com.scottkillen.mod.dendrology.content.crafting.Crafter" />
       <entry_point TYPE="class" FQNAME="com.scottkillen.mod.dendrology.content.crafting.Smelter" />
     </entry_points>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="net.minecraftforge.fml.common.Mod" />
+      <item index="1" class="java.lang.String" itemvalue="net.minecraftforge.fml.common.Mod.EventHandler" />
+      <item index="2" class="java.lang.String" itemvalue="net.minecraftforge.fml.common.eventhandler.SubscribeEvent" />
+    </list>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectPlainTextFileTypeManager">
     <file url="file://$PROJECT_DIR$/src/main/resources/assets/dendrology/lang/de_DE.lang" />
     <file url="file://$PROJECT_DIR$/src/main/resources/assets/dendrology/lang/en_GB.lang" />
@@ -23,7 +29,7 @@
     <file url="file://$PROJECT_DIR$/src/main/resources/assets/dendrology/lang/en_US.lang" />
     <file url="file://$PROJECT_DIR$/src/main/resources/assets/dendrology/lang/eo_UY.lang" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
